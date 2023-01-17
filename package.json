@@ -2,9 +2,11 @@
   "name": "open-genes-tests",
   "version": "0.1.0",
   "description": "",
-  "main": "main.ts",
   "scripts": {
-    "start": "npx jest tests/*"
+    "start": "npx jest tests/*",
+    "start-website": "npx jest tests/website",
+    "start-cms": "npx jest tests/cms",
+    "start-api": "npx jest tests/api"
   },
   "dependencies": {
     "playwright": "^1.29.2"
